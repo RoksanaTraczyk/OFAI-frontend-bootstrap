@@ -1,6 +1,6 @@
 # <project_root>/.github/workflows/hello.yml
 
-name: Netlify deploy
+name: Deploy Rick and Morty application
 
 on:
   workflow_dispatch:
