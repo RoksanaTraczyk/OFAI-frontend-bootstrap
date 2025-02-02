@@ -8,6 +8,7 @@ const App = () => {
         <h1 className="text-xl font-bold text-center">🚀 Rick and Morty - Fan Service</h1>
       </div>
       <Outlet />
+      {__VITE_ENVIRONMENT__} - {__APP_VERSION__}
     </div>
   );
 };
