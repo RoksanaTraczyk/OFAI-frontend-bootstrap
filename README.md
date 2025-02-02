@@ -1,4 +1,4 @@
-# Opanuj Frontend: AI Edition - Rick and Morty
+# Opanuj Frontend: AI Edition - Rick and Morty v2
 ![](./_resources/img/header.png)
 
 ## Co w środku?
