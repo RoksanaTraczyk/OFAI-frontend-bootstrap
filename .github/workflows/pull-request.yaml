@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configure node
-        uses: ./github/actions/setup-projet
+        uses: ./github/actions/setup-project
 
       - name: Install dependencies
         run: npm ci 
