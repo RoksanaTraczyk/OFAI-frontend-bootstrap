@@ -20,6 +20,7 @@ runs:
 
     - name: Set VITE_ENVIRONMENT
       run: echo "VITE_ENVIRONMENT=${{ job.environment.name }}" >> $GITHUB_ENV  
+      shell: bash
 
     - name: Build project
       run: npm run build
