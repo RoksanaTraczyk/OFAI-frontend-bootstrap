@@ -11,7 +11,7 @@ export default defineConfig({
   define: {
     // __APP_VERSION__: JSON.stringify(packageJson.version),
     __APP_VERSION__: JSON.stringify(appVersion),
-    __VITE_ENVIRONMENT__ : JSON.stringify(process.env.NODE_ENV || 'development'),
+    __VITE_ENVIRONMENT__ : JSON.stringify(process.env.NODE_ENV),
   },
   server: {
     port: 3000,
